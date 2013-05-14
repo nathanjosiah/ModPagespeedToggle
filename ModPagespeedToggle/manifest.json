@@ -1,0 +1,18 @@
+{
+	"name": "PagespeedToggle",
+	"description": "Enables/Disables Google's Pagespeed web performance tool",
+	"version": "0.1",
+	"permissions": [
+		"tabs",
+		"http://*/",
+		"https://*/"
+	],
+	"background": {
+		"scripts": ["background.js"]
+	},
+	"browser_action": {
+		"default_icon": "icon.png",
+		"default_title": "Toggle ModPagespeed"
+	},
+	"manifest_version": 2
+}
